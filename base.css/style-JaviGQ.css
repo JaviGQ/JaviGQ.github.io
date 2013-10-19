@@ -36,8 +36,8 @@ nav a:link {
         background-color:#FF6600;
         color:#fff;
         text-align:center;
-        height:28px;
-        margin:20px;
+        height:25px;
+        margin:10px;
         width:120px;
 }
 
@@ -46,7 +46,7 @@ nav a:visited {
         background-color:#FF6600;
         color:#fff;
         text-align:center;
-        height:28px;
+        height:25px;
         margin:20px;
         width:120px;
 }
