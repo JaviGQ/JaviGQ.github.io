@@ -141,6 +141,8 @@ p a:hover {
 
 
 
+
+
 /* IMAGE RULES */
 
 img {
@@ -149,4 +151,17 @@ img {
         margin-right: auto; 
         margin-bottom: 10px;
     
+}
+
+
+
+
+
+/* OBJECT RULES */
+
+object {
+        display: block;
+        margin-left: auto;
+        margin-right: auto; 
+        margin-bottom: 10px;
 }
