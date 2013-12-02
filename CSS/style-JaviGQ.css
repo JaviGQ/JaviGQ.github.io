@@ -25,8 +25,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#334e6b', end
 /*DIV*/
 
 #wrap {
-    width:950px;
-    margin:0 auto;
+    width:100%;
+    margin:0px auto;
 
 }
 
@@ -56,18 +56,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#334e6b', end
         text-decoration: none;
         color:#FFF;
         font-size:48px;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 
 #h2 {
         display:inline-block;
         border: solid #ccc;
+        margin-top:5px;
+        margin-left:10%;
+        margin-right:auto;
         border-width:1px;
         list-style-type:none;
-        margin-left:auto;
-        margin-right:auto;
         padding:1px;
-        text-align:center;
         font-size:20px;
         color:#FFF;
         text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
@@ -95,13 +96,13 @@ background-image: radial-gradient(ellipse farthest-side at center, #ECBE51 0%, #
 
 #h2:visited { 
         text-decoration: underline;
-        color:#FF1800;
+        color:#FFF;
         text-align:center;
 }
 
 #h2:hover {
         text-decoration: none;
-        color:#FF1800;
+        color:#FFF;
         text-align:center;
 
 }
@@ -201,8 +202,6 @@ background-image: radial-gradient(ellipse farthest-side at center, #ECBE51 0%, #
         color: #FFF;
         text-decoration:none;
 }
-
-
 
 
 
@@ -312,8 +311,7 @@ a:hover {
 /* IMAGE RULES */
 
 img {
-        
-        width:50%;
+        width: 50%; 
         display: block;
         margin-left: auto;
         margin-right: auto; 
@@ -353,20 +351,24 @@ iframe {
 /*DIV*/
 
 #wrap {
-    width:950px;
-    margin:0 auto;
+    width:100%;
+    margin-left: auto;
+    margin-right:auto;
 
 }
 
 #main {
     float:none;
-    width:80%;
-   ;
+    width:85%;
+    margin-right:auto;
+    margin-left:auto;
 }
 
 #sidebar {
     float:none;
-    width:15%;
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
 }
     
 /*HEADER RULES*/
@@ -375,7 +377,8 @@ iframe {
         border-bottom:1px solid #ccc;
         border-width:1px;
         list-style-type:none;
-        margin:1px;
+        margin-left:auto;
+        margin-right:auto;
         padding:1px;
         text-align:center;
 }
@@ -383,7 +386,7 @@ iframe {
 #header a {
         text-decoration: none;
         color:#FFF;
-        font-size:48px;
+        font-size:1.5en;
 }
 
 #h3 {
@@ -401,7 +404,8 @@ iframe {
         border-bottom:1px solid #ccc;
         border-width:1px;
         list-style-type:none;
-        margin:1px;
+        margin-left:auto;
+        margin-right:auto;
         padding:1px;
         text-align:center;
         
@@ -574,7 +578,7 @@ img {
 #body {
         color:#FFF;
         font-family:"Trebuchet MS", Helvetica, sans-serif;
-        margin: 1px 10px 10px 15px;
+        margin: 1px 15px 10px 15px;
 }
 
 #body a { 
