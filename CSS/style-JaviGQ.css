@@ -1,11 +1,11 @@
-body,
-html{ 
-    height:100%;
+html{
+    min-height:100%;
+}
+body{ 
     background-repeat:no-repeat;
     background-attachment:fixed;
     margin:0px;
     padding:0px;
-    color:inherit;
     background: rgb(51,78,107); 
     /* Old browsers */
 background: -moz-linear-gradient(top,  rgba(51,78,107,1) 1%, rgba(12,7,9,1) 98%); 
@@ -365,7 +365,7 @@ iframe {
     margin-left:auto;
     margin-right:25px;
     width:100%;
-    height:400px;
+    height:750px;
     clear:both;
     
         
@@ -657,5 +657,13 @@ iframe {
     height:auto;
     clear:both; 
 }
+
+#resume object {
+    margin-left:auto;
+    margin-right:25px;
+    width:100%;
+    height:750px;
+    clear:both;
+    
 
 }   
