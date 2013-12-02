@@ -62,19 +62,36 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#334e6b', end
 
 
 #h2 {
-        border-bottom:10px solid #ccc;
+        display:inline-block;
+        border: solid #ccc;
         border-width:1px;
         list-style-type:none;
         margin:1px;
         padding:1px;
         text-align:center;
         font-size:20px;
-        background-color:#EB6900;
-        color:#FF1800;
+        color:#FFF;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
         text-decoration:none;
         text-align:center;
         height:25px;
         width:750px;
+        background-image: -ms-radial-gradient(center, ellipse farthest-side, #ECBE51 0%, #816325 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-radial-gradient(center, ellipse farthest-side, #ECBE51 0%, #816325 100%);
+
+/* Opera */ 
+background-image: -o-radial-gradient(center, ellipse farthest-side, #ECBE51 0%, #816325 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(radial, center center, 0, center center, 487, color-stop(0, #ECBE51), color-stop(1, #816325));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-radial-gradient(center, ellipse farthest-side, #ECBE51 0%, #816325 100%);
+
+/* W3C Markup, IE10 Release Preview */ 
+background-image: radial-gradient(ellipse farthest-side at center, #ECBE51 0%, #816325 100%);
 }
 
 #h2:visited { 
@@ -124,18 +141,36 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#334e6b', end
 
 #nav a:link {
         font-size:20px;
-        background-color:#EB6900;
-        color:#fff;
+         color:#FFF;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
         text-align:center;
         height:25px;
         margin:10px;
         width:120px;
+        /* IE10 Consumer Preview */ 
+background-image: -ms-radial-gradient(center, ellipse farthest-side, #ECBE51 0%, #816325 100%);
+
+    /* Mozilla Firefox */ 
+background-image: -moz-radial-gradient(center, ellipse farthest-side, #ECBE51 0%, #816325 100%);
+
+    /* Opera */ 
+background-image: -o-radial-gradient(center, ellipse farthest-side, #ECBE51 0%, #816325 100%);
+
+    /* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(radial, center center, 0, center center, 487, color-stop(0, #ECBE51), color-stop(1, #816325));
+
+    /* Webkit (Chrome 11+) */ 
+background-image: -webkit-radial-gradient(center, ellipse farthest-side, #ECBE51 0%, #816325 100%);
+
+    /* W3C Markup, IE10 Release Preview */ 
+background-image: radial-gradient(ellipse farthest-side at center, #ECBE51 0%, #816325 100%);
+      
 }
 
 #nav a:visited { 
         font-size:20px;
-        background-color:#EB6900;
-        color:#fff;
+        color:#FFF;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
         text-align:center;
         height:25px;
         margin:20px;
@@ -193,19 +228,36 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#334e6b', end
 }
 
 #footer a:link {
-        font-size:15px;
-        background-color:#FF6600;
-        color:#fff;
+        font-size:17px;
+         color:#FFF;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0  -1px black;
         text-align:center;
         height:17px;
         margin:5px;
         width:65px;
+        /* IE10 Consumer Preview */ 
+background-image: -ms-radial-gradient(center, ellipse farthest-side, #ECBE51 0%, #816325 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-radial-gradient(center, ellipse farthest-side, #ECBE51 0%, #816325 100%);
+
+/* Opera */ 
+background-image: -o-radial-gradient(center, ellipse farthest-side, #ECBE51 0%, #816325 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(radial, center center, 0, center center, 487, color-stop(0, #ECBE51), color-stop(1, #816325));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-radial-gradient(center, ellipse farthest-side, #ECBE51 0%, #816325 100%);
+
+/* W3C Markup, IE10 Release Preview */ 
+background-image: radial-gradient(ellipse farthest-side at center, #ECBE51 0%, #816325 100%);
 }
 
 #footer a:visited { 
-        font-size:15px;
-        background-color:#FF6600;
-        color:#fff;
+        font-size:17px;
+         color:#FFF;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
         text-align:center;
         height:17px;
         margin:5px;
@@ -340,18 +392,34 @@ iframe {
 
 #nav a:link {
         font-size:20px;
-        background-color:#EB6900;
-        color:#fff;
+         color:#FFF;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
         text-align:center;
         height:25px;
         margin:10px;
         width:120px;
+        background-image: -ms-radial-gradient(center, ellipse farthest-side, #ECBE51 0%, #816325 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-radial-gradient(center, ellipse farthest-side, #ECBE51 0%, #816325 100%);
+
+/* Opera */ 
+background-image: -o-radial-gradient(center, ellipse farthest-side, #ECBE51 0%, #816325 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(radial, center center, 0, center center, 487, color-stop(0, #ECBE51), color-stop(1, #816325));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-radial-gradient(center, ellipse farthest-side, #ECBE51 0%, #816325 100%);
+
+/* W3C Markup, IE10 Release Preview */ 
+background-image: radial-gradient(ellipse farthest-side at center, #ECBE51 0%, #816325 100%);
 }
 
 #nav a:visited { 
         font-size:20px;
-        background-color:#EB6900;
-        color:#fff;
+         color:#FFF;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
         text-align:center;
         height:25px;
         margin:20px;
@@ -423,19 +491,35 @@ a:hover {
 }
 
 #footer a:link {
-        font-size:15px;
-        background-color:#FF6600;
-        color:#fff;
+        font-size:17px;
+        color:#FFF;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
         text-align:center;
         height:17px;
         margin:5px;
         width:65px;
+        background-image: -ms-radial-gradient(center, ellipse farthest-side, #ECBE51 0%, #816325 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-radial-gradient(center, ellipse farthest-side, #ECBE51 0%, #816325 100%);
+
+/* Opera */ 
+background-image: -o-radial-gradient(center, ellipse farthest-side, #ECBE51 0%, #816325 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(radial, center center, 0, center center, 487, color-stop(0, #ECBE51), color-stop(1, #816325));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-radial-gradient(center, ellipse farthest-side, #ECBE51 0%, #816325 100%);
+
+/* W3C Markup, IE10 Release Preview */ 
+background-image: radial-gradient(ellipse farthest-side at center, #ECBE51 0%, #816325 100%);
 }
 
 #footer a:visited { 
-        font-size:15px;
-        background-color:#FF6600;
-        color:#fff;
+        font-size:17px;
+        color:#FFF;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
         text-align:center;
         height:17px;
         margin:5px;
