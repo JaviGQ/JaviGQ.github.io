@@ -329,7 +329,8 @@ img {
 /* OBJECT RULES */
 
 object {
-
+        overflow:visible;
+        padding:0px;
         display: block;
         margin-left: auto;
         margin-right: auto; 
@@ -360,13 +361,16 @@ iframe {
     clear:both; 
 }
 
-#resume {
-    margin-left:25px;
+#resume object {
+    margin-left:auto;
     margin-right:25px;
-    height:auto;
-    width:85%;
-
+    width:100%;
+    height:400px;
+    clear:both;
+    
+        
 }
+
 
 
 /*MEDIA SCREEN*/
