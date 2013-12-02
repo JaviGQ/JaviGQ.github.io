@@ -310,8 +310,7 @@ a:hover {
 
 /* IMAGE RULES */
 
-img {
-        width: 50%; 
+img { 
         display: block;
         margin-left: auto;
         margin-right: auto; 
@@ -338,6 +337,31 @@ iframe {
         margin-right: auto; 
         margin-bottom: 10px;
         }
+
+/*MISC*/
+
+.contact img {;
+    width:10%;
+    height:auto;
+    clear:both;
+}
+
+
+#wordpress{
+    margin-left:auto;
+    margin-right:auto;
+    width:35%;
+    height:auto;
+    clear:both; 
+}
+
+#resume {
+    margin-left:25px;
+    margin-right:25px;
+    height:auto;
+    width:85%;
+
+}
 
 
 /*MEDIA SCREEN*/
@@ -607,5 +631,22 @@ iframe {
         margin-right: auto; 
         margin-bottom: 10px;
         }
+
+
+/*MISC*/
+
+.contact img {  
+    width:25%;
+    height:auto;
+    clear:both;
 }
 
+#wordpress{
+    margin-left:auto;
+    margin-right:auto;
+    width:35%;
+    height:auto;
+    clear:both; 
+}
+
+}   
