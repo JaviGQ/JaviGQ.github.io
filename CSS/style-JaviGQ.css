@@ -1,5 +1,5 @@
 body,
-html { 
+html{ 
     margin:0px;
     padding:0px;
     color:inherit;
@@ -22,25 +22,23 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#334e6b', end
 
 }
 
-
-
 /*DIV*/
 
 #wrap {
-    width:1050px;
+    width:950px;
     margin:0 auto;
 
 }
 
 #main {
     float:right;
-    width:750px;
+    width:80%;
    ;
 }
 
 #sidebar {
     float:left;
-    width:150px;
+    width:15%;
 }
 
 /*HEADER RULES*/
@@ -66,7 +64,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#334e6b', end
         border: solid #ccc;
         border-width:1px;
         list-style-type:none;
-        margin:1px;
+        margin-left:auto;
+        margin-right:auto;
         padding:1px;
         text-align:center;
         font-size:20px;
@@ -74,8 +73,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#334e6b', end
         text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
         text-decoration:none;
         text-align:center;
-        height:25px;
-        width:750px;
+        height:25%;
+        width:75%;
         background-image: -ms-radial-gradient(center, ellipse farthest-side, #ECBE51 0%, #816325 100%);
 
 /* Mozilla Firefox */ 
@@ -193,7 +192,8 @@ background-image: radial-gradient(ellipse farthest-side at center, #ECBE51 0%, #
 #body {
         color:#FFF;
         font-family:"Trebuchet MS", Helvetica, sans-serif;
-        margin: 1px 150px 10px 150px;
+        margin: 1px 15px 1px 15px;
+        font-size:14px;
 
 }
 
@@ -277,6 +277,7 @@ background-image: radial-gradient(ellipse farthest-side at center, #ECBE51 0%, #
 p { 
         text-align:left;
         color:#FFF;
+        
     
 }
 
@@ -284,25 +285,25 @@ p {
 a {
         text-align:center;
         text-decoration:underline;
-        color: #FF1800;
+        color: #FFF;
 }
 
 a:link { 
         text-align:center;
         text-decoration:underline;
-        color: #FF1800;
+        color: #FFF;
 }
 
 a:visited { 
         text-decoration:underline;
-        color:#FF1800;
+        color:#FFF;
 }
 
 
 a:hover { 
         text-decoration:underline;
         font-weight: 800;
-        color:#FF1800;
+        color:#FFF;
 }
 
 
@@ -311,6 +312,8 @@ a:hover {
 /* IMAGE RULES */
 
 img {
+        
+        width:50%;
         display: block;
         margin-left: auto;
         margin-right: auto; 
@@ -326,24 +329,45 @@ img {
 object {
 
         display: block;
-        margin-left: 10px;
-        margin-right: 10px; 
+        margin-left: auto;
+        margin-right: auto; 
         margin-bottom: 10px;
 }
 
 iframe { 
-       display: block;
-       margin-left: auto;
-       margin-right: auto; 
-       margin-bottom: 10px;
-        clear:both;
+        display: block;
+        margin-left: auto;
+        margin-right: auto; 
+        margin-bottom: 10px;
         }
 
 
 /*MEDIA SCREEN*/
 
-@media screen and (max-width: 600px) { 
+@media screen and (max-width: 600px) {
+    section, aside;
+    width:auto;
+    float:none;
     
+    
+/*DIV*/
+
+#wrap {
+    width:950px;
+    margin:0 auto;
+
+}
+
+#main {
+    float:none;
+    width:80%;
+   ;
+}
+
+#sidebar {
+    float:none;
+    width:15%;
+}
     
 /*HEADER RULES*/
 
@@ -380,6 +404,7 @@ iframe {
         margin:1px;
         padding:1px;
         text-align:center;
+        
 }
 
 #nav a{
@@ -437,6 +462,7 @@ background-image: radial-gradient(ellipse farthest-side at center, #ECBE51 0%, #
 p { 
         text-align:left;
         color:#FFF;
+        clear:both;
     
 }
 
@@ -444,25 +470,25 @@ p {
 a {
         text-align:center;
         text-decoration:underline;
-        color: #FF1800;
+        color: #FFF;
 }
 
 a:link { 
         text-align:center;
         text-decoration:underline;
-        color: #FF1800;
+        color: #FFF;
 }
 
 a:visited { 
         text-decoration:underline;
-        color:#FF1800;
+        color:#FFF;
 }
 
 
 a:hover { 
         text-decoration:underline;
         font-weight: 800;
-        color:#FF1800;
+        color:#FFF;
 }
 
 
@@ -477,7 +503,7 @@ a:hover {
         border-bottom:5px solid #ccc;
         border-width:1px;
         list-style-type:none;
-        margin:0px;
+        margin:1px 5px 1px 5px;
         padding:0px;
         text-align:center;
         clear:both;
@@ -534,12 +560,13 @@ background-image: radial-gradient(ellipse farthest-side at center, #ECBE51 0%, #
 
 /*IMAGE RULES*/
 
-img {
+img {        
+        height: 100%;
+        width: 100%;
         display:block;
         margin-left: auto;
         margin-right: auto; 
         margin-bottom: 10px;
-        width: 75%;
 }
 
 /*BODY RULES*/
@@ -555,4 +582,26 @@ img {
         text-decoration:none;
 }
 
+
+/*OBJECTS*/
+
+object {
+
+        height: 100%;
+        width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto; 
+        margin-bottom: 10px;
 }
+
+iframe { 
+       height: 100%;
+        width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto; 
+        margin-bottom: 10px;
+        }
+}
+
