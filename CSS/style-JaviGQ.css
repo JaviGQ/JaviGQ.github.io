@@ -247,7 +247,7 @@ background-image: radial-gradient(ellipse farthest-side at center, #ECBE51 0%, #
         text-align:center;
         height:17px;
         margin:5px;
-        width:65px;
+        width:80px;
         /* IE10 Consumer Preview */ 
 background-image: -ms-radial-gradient(center, ellipse farthest-side, #ECBE51 0%, #816325 100%);
 
@@ -274,7 +274,7 @@ background-image: radial-gradient(ellipse farthest-side at center, #ECBE51 0%, #
         text-align:center;
         height:17px;
         margin:5px;
-        width:65px;
+        width:80px;
 }
 
 #footer a:hover {
@@ -568,7 +568,7 @@ a:hover {
         text-decoration:none;
         display:inline-block;
         padding:2px;
-        border: solid #ccc
+        border: solid #ccc;
 }
 
 #footer a:link {
@@ -578,7 +578,7 @@ a:hover {
         text-align:center;
         height:17px;
         margin:5px;
-        width:65px;
+        width:80px;
         background-image: -ms-radial-gradient(center, ellipse farthest-side, #ECBE51 0%, #816325 100%);
 
 /* Mozilla Firefox */ 
@@ -604,7 +604,7 @@ background-image: radial-gradient(ellipse farthest-side at center, #ECBE51 0%, #
         text-align:center;
         height:17px;
         margin:5px;
-        width:65px;
+        width:80px;
 }
 
 #footer a:hover {
