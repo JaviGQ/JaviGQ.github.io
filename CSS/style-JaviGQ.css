@@ -390,6 +390,9 @@ iframe {
         text-decoration:underline;
 }
 
+#interview_text {
+    margin-left:3%;
+}
 
 /*MEDIA SCREEN*/
 
@@ -693,5 +696,10 @@ iframe {
         color:#8A7600;
         text-decoration:underline;
 }
-    
+  
+#interview_text {
+    margin-left:3%;
+}
+
+
 }   
